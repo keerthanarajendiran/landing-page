@@ -6,11 +6,9 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    line-height: 1.5;
-    font-family: 'Alegreya', serif;
-    font-family: 'Petrona', serif;
-    font-family: 'Piazzolla', serif;
+    line-height: 1.5;   
     font-family: 'Roboto Mono', monospace;
+    position: relative;
 }
 .header-sec{
     padding: 10px 40px;
@@ -138,7 +136,7 @@ body{
 .fas{
     font-size: 70px;
     color: #007bff;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     transition: transform .2s;
 }
 .fas:hover{
@@ -147,7 +145,7 @@ body{
 .fa-gg{
     font-size: 70px;
     color: #007bff;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     transition: transform .2s;
 }
 .fa-gg:hover{
@@ -156,7 +154,7 @@ body{
 .far{
     font-size: 70px;
     color: #007bff;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     transition: transform .2s;
 } 
 .far:hover{
@@ -191,9 +189,12 @@ body{
     align-items: flex-start;
     height: 100%;
 }
+.third-order-image{
+    height: 480px;
+    width: 640px;
+}
 .third-first-image{
     width: 50%;
-
 }
 .third-first-title{
     margin: 0;
@@ -324,11 +325,9 @@ ul{
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
-}
-  
+}  
 li{
     display: inline;
-    /* margin-left: 5px;     */
 }
 li a{
     color: #007bff; 
@@ -343,6 +342,9 @@ li:hover a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: calc( 100% - 200px);
 }
 .fa-facebook{
     font-size: 35px;
@@ -364,8 +366,14 @@ li:hover a{
     padding: 0;
     margin: 0;
 }
+.footer-height{
+    height: 160px;
+}
 .ae{
     vertical-align: 12%;
+}
+@media only screen and (max-width: 480px){
+.header-sec{ }
 }
 
 
